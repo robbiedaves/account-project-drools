@@ -17,6 +17,11 @@ public class Account {
 		return balance;
 	}
 
+	@Override
+	public String toString() {
+		return "Account [accountno=" + accountno + ", balance=" + balance + "]";
+	}
+
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}

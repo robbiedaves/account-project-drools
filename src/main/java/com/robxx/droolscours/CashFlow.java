@@ -40,4 +40,10 @@ public class CashFlow {
 		this.accountNo = accountNo;
 	}
 
+	@Override
+	public String toString() {
+		return "CashFlow [mvtDate=" + mvtDate + ", amount=" + amount + ", type=" + type + ", accountNo=" + accountNo
+				+ "]";
+	}
+
 }
